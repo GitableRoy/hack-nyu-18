@@ -1,0 +1,12 @@
+.vertical_pulsate {
+	animation: vertical_pulsate 3s infinite;
+}
+
+@keyframes vertical_pulsate {
+	0% { transform: translate(-50%, 0px); }
+	80% { transform: translate(-50%, 0px); }
+	85% { transform: translate(-50%, 10px); }
+	90% { transform: translate(-50%, 0px); }
+	95% { transform: translate(-50%, 10px); }
+	100% { transform: translate(-50%, 0px); }
+}

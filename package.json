@@ -1,14 +1,16 @@
 {
-	"name": "enduro_new_project",
+	"name": "BA.hero",
 	"version": "1.0.0",
 	"description": "",
 	"main": "assets/vendor/enduro/index.js",
 	"scripts": {
-		"start": "node_modules/.bin/enduro dev"
+		"start": "node_modules/.bin/enduro dev",
+		"postinstall": "node_modules/.bin/enduro dev",
 	},
-	"author": "author goes here",
+	"author": "BA Hero",
 	"license": "MIT",
 	"dependencies": {
-		"enduro": "*"
+		"enduro": "*",
+		"bower": "^1.8.2"
 	}
 }
