@@ -55,5 +55,7 @@
 				link: 'http://www.endurojs.com/docs/netlify'
 			}
 		]
-	}
+	},
+	$color_type : 'colorpicker',
+	color: ''
 }
