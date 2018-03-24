@@ -2,6 +2,7 @@
   brand: {
     $link_type: 'image',
     link: 'https://www.kelloggsspecialtychannels.com/Image/Show/5e03132c-e27c-4a54-9e25-0f970a8e7eac',
+    title: 'BA.Hero',
 		tagline1: 'Be the Hero this world deserves but not the one it needs right now.',
     tagline2: 'About Us: A web app, in which we help the world.'
   },

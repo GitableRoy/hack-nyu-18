@@ -1,6 +1,6 @@
 {
 	first_slide: {
-		header: 'Woooooow!',
+		header: 'BA.HERO!!',
 		tagline: 'Your first enduro.js project',
 		call_to_action: 'Scroll down to see what\'s up',
 	},
