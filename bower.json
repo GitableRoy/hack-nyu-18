@@ -1,0 +1,25 @@
+{
+  "name": "BA.hero",
+  "description": "A web application for helping others",
+  "main": "assets/vendor/enduro/index.js",
+  "authors": [
+    "Leroy Leslie",
+    "Yenyu Huang",
+    "Ting Ting Ye",
+    "Chunyiu Lam"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.5"
+  }
+}
