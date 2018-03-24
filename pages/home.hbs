@@ -1,29 +1,19 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>BA.Hero</title>
-		<link rel="stylesheet" href="/assets/css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,200" rel="stylesheet">
-		<style type="text/css"></style>
-	</head>
-
-	<body>
+{{#>body}}
     {{#with brand}}
-      <section class="screen">
+      <section class="screen" style="background-color:pink;">
         <div class="center_block">
           <p class="huge">{{header}}</p>
-          <p>{{tagline}}</p>
+					<p>{{tagline1}}</p>
+					<p>{{tagline2}}</p>
       </section>
     {{/with}}
 
-    {{#with Mission}}
+    {{#with mission}}
       <section class="screen">
         <div class="center_block">
           <p class="huge">{{header}}</p>
-          <p>{{tagline}}</p>
+					<p>{{tagline1}}</p>
+					<p>{{tagline2}}</p>
       </section>
     {{/with}}
-
-  </body>
-
-</html>
+{{/body}}
