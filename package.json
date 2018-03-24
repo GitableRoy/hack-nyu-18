@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "assets/vendor/enduro/index.js",
 	"scripts": {
-		"start": "node_modules/.bin/enduro start"
+		"start": "node_modules/.bin/enduro dev"
 	},
 	"author": "author goes here",
 	"license": "MIT",
