@@ -16,6 +16,11 @@
   explanation:{
     title: 'How it works',
     step1: 'Sign up!',
+      <ul>
+      <li> Sign Up for free </li>
+      <li> Help your neighbors.</li>
+      <li> Ask for help.</li>
+      </ul>
     step2: 'Search the board!',
     step3:'Earn points'
   },
