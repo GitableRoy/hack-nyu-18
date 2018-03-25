@@ -1,6 +1,11 @@
 .screen {
 	height: 100vh;
 	position: relative;
+	background: {
+		size:contain;
+		position: center center;
+		
+	}
 
 	&.half {
 		height: 50vh;
