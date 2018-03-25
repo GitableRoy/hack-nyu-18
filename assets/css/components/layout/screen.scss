@@ -2,9 +2,10 @@
 	height: 100vh;
 	position: relative;
 	background: {
-		size:contain;
+		size: cover;
 		position: center center;
-		
+		repeat: no-repeat;
+		attachment: fixed;
 	}
 
 	&.half {
