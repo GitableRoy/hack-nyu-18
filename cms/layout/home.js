@@ -14,6 +14,7 @@
     tagline1: 'Everybody in the world plays a part in other people\'s lives. It is important to create a health environment where people look after each other. In this case we present BA.Heroes; an application where people "cry for help" and "Heroes to Rescue".',
   },
   explanation:{
+    link:'https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/29391783_1981665731848209_602164369_o.png?_nc_cat=0&oh=e66c0c8a7529e52fda4f109e6ab7932c&oe=5AB92BF4',
     title: 'How it works',
     step1: 'Sign up!',
     step2: 'To the Mission Board!',
@@ -21,7 +22,8 @@
   },
 
   join:{
-    header:'how?',
+    link:'http://www.iaapi.org/images/joinnow.jpg',
+    header:'JOIN NOW',
   }
 
 

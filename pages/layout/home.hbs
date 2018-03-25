@@ -1,6 +1,16 @@
 {{#>body}}
 
   <style>
+
+  li{
+    font-size:15px;
+  }
+
+  .box{
+    padding: 35px;
+    border-width: 2px;
+    width: 300px;
+  }
   .centered_div {
      width: Xu;
      height: Yu;
@@ -9,6 +19,14 @@
      left: 35%;
      margin-left: -(X/2)u;
      margin-top: -(Y/2)u;
+  }
+  .centered2{
+    width: Xu;
+    height: Yu;
+    position: absolute;
+    left: 45%;
+    margin-left: -(X/2)u;
+    margin-top: -(Y/2)u;
   }
 
   .centerInfo {
@@ -53,30 +71,30 @@
     {{/with}}
 
     {{#with explanation}}
-    <section class="screen">
-      <div class="center_block">
+    <section class="screen"  style = 'background-image: url({{link}})'; 'background-color: #f2f2f2'>
+      <div class="centered2">
+        <div style>
+        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:25px;" > {{step1}} </h1>
         <p class="huge">{{header}}</p>
-        <div style =background-color: 'yellow'>
-        <p>{{step1}}</p>
-        <ul>
+        <ul class="box">
           <li> Sign up for free </li>
           <li> Help your neighbors </li>
           <li> Ask for help </li>
         </ul>
       </div>
 
-      <div style =background-color: 'green'>
-        <p>{{step2}}</p>
-        <ul>
+      <div>
+        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:25px;" > {{step2}}</h1>
+        <ul class="box">
           <li> Search </li>
           <li> Post </li>
           <li> Communicate </li>
         </ul>
       </div>
 
-      <div style =background-color: 'yellow'>
-        <p>{{step3}}</p>
-        <ul>
+      <div>
+        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:25px;" > {{step3}} </h1>
+        <ul class="box">
           <li> Reputation </li>
           <li> Leveling </li>
           <li> Achievement </li>
@@ -87,7 +105,7 @@
       {{/with}}
 
       {{#with join}}
-      <section class="screen" style= 'background-color: black'>
+      <section class="screen" style = 'background-image: url({{link}})';>
         <div class="center_block">
           <p class ="huge"> {{header}} </p>
           <p><a href=""> Join</a> </p>
