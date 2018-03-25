@@ -1,11 +1,43 @@
 {{#>body}}
 
   <style>
+<<<<<<< HEAD
 
-  .centerTitle {
-      margin: auto;
-      width: 20%;
-      padding: 10px;
+  li{
+    font-size:15px;
+  }
+
+  .box{
+    padding: 35px;
+    border-width: 2px;
+    width: 300px;
+  }
+  .centered_div {
+     width: Xu;
+     height: Yu;
+     position: absolute;
+     top: 35%;
+     left: 35%;
+     margin-left: -(X/2)u;
+     margin-top: -(Y/2)u;
+  }
+  .centered2{
+    width: Xu;
+    height: Yu;
+    position: absolute;
+    left: 45%;
+    margin-left: -(X/2)u;
+    margin-top: -(Y/2)u;
+  }
+=======
+>>>>>>> d05ceaa7eb1758d59081a517ad660445900367e4
+
+  .centerInfo {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 40%;
+    padding: 10px;
   }
   .centerTag {
     margin: auto;
@@ -38,19 +70,58 @@
 
 
     {{#with mission}}
+<<<<<<< HEAD
+      <section class="screen" style = 'background-image: url({{link}})'>
+        <div class="centered_div">
+          <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: blue; font-size:100px;" >{{header}} </h1>
+          </div>
+          <div class= "centerInfo">
+					<center style= "color: black; font-size :20px;"><b>{{tagline1}}</b></center>
+          </div>
+=======
       <section class="screen" style ='background-color: green'>
 
           <p class="huge">{{header}}</p>
 					<p>{{tagline1}}</p>
 					<p>{{tagline2}}</p>
 
+>>>>>>> d05ceaa7eb1758d59081a517ad660445900367e4
       </section>
     {{/with}}
 
     {{#with explanation}}
-    <section class="screen">
-      <div class="center_block">
+    <section class="screen"  style = 'background-image: url({{link}})'; 'background-color: #f2f2f2'>
+      <div class="centered2">
+        <div style>
+        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:25px;" > {{step1}} </h1>
         <p class="huge">{{header}}</p>
+<<<<<<< HEAD
+        <ul class="box">
+          <li> Sign up for free </li>
+          <li> Help your neighbors </li>
+          <li> Ask for help </li>
+        </ul>
+      </div>
+
+      <div>
+        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:25px;" > {{step2}}</h1>
+        <ul class="box">
+          <li> Search </li>
+          <li> Post </li>
+          <li> Communicate </li>
+        </ul>
+      </div>
+
+      <div>
+        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:25px;" > {{step3}} </h1>
+        <ul class="box">
+          <li> Reputation </li>
+          <li> Leveling </li>
+          <li> Achievement </li>
+        </ul>
+      </div>
+
+=======
         <p>{{step1}}</p>
         <ul>
            <li> item1 </li>
@@ -59,11 +130,12 @@
         </ul>
         <p>{{step2}}</p>
         <p>{{step3}}</p>
+>>>>>>> d05ceaa7eb1758d59081a517ad660445900367e4
       </section>
       {{/with}}
 
       {{#with join}}
-      <section class="screen" style= 'background-color: black'>
+      <section class="screen" style = 'background-image: url({{link}})';>
         <div class="center_block">
           <p class ="huge"> {{header}} </p>
           <p><a href=""> Join</a> </p>
