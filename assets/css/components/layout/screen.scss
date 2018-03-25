@@ -1,0 +1,21 @@
+.screen {
+	height: 100vh;
+	position: relative;
+	background: {
+		size:contain;
+		position: center center;
+		
+	}
+
+	&.half {
+		height: 50vh;
+	}
+
+	&.color1 {
+		background-color: $color1;
+	}
+
+	&.color2 {
+		background-color: $color2;
+	}
+}

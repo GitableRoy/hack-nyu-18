@@ -1,0 +1,38 @@
+.nav-wrapper {
+  height: 7vh;
+  background: {
+    color: $nav;
+  }
+  padding: {
+    left: 100px;
+    right: 100px;
+  }
+
+  .nav-brand {
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    padding: {
+      top:2vh;
+      bottom: 3vh;
+      left: 20px;
+      right: 20px;
+    }
+  }
+
+  .nav-buttons {
+    display: inline-block;
+    float: right;
+
+    .nav-btn {
+      color: white;
+      display: inline-block;
+      padding: {
+        top:2vh;
+        bottom: 3vh;
+        left: 20px;
+        right: 20px;
+      }
+    }
+  }
+}
