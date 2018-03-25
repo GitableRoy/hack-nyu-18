@@ -3,7 +3,7 @@
     $link_type: 'image',
     link: 'https://keyword-hero.com/wp-content/uploads/2017/04/heroandheroine.png',
     title: 'BA.Hero',
-		tagline1: 'Be the Hero this world deserves but not the one it needs right now.',
+		tagline1: '"Be the Hero this world deserves but not the one it needs right now."',
     tagline2: 'About Us: A web app, in which we help the world.'
 
   },

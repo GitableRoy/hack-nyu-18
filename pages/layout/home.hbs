@@ -11,10 +11,12 @@
      margin-top: -(Y/2)u;
   }
 
-  .centerTitle {
-      margin: auto;
-      width: 20%;
-      padding: 10px;
+  .centerInfo {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 40%;
+    padding: 10px;
   }
   .centerTag {
     margin: auto;
@@ -42,8 +44,10 @@
     {{#with mission}}
       <section class="screen" style = 'background-image: url({{link}})'>
         <div class="centered_div">
-          <h1 style = "font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:100px;" >{{header}} </h1>
-					<p>{{tagline1}}</p>
+          <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: blue; font-size:100px;" >{{header}} </h1>
+          </div>
+          <div class= "centerInfo">
+					<center style= "color: black; font-size :20px;"><b>{{tagline1}}</b></center>
           </div>
       </section>
     {{/with}}
@@ -53,6 +57,12 @@
       <div class="center_block">
         <p class="huge">{{header}}</p>
         <p>{{step1}}</p>
+        <ul>
+          <li> item1 </li>
+          <li> item2 </li>
+          <li> item3 </li>
+        </ul>
+
         <p>{{step2}}</p>
         <p>{{step3}}</p>
       </section>
