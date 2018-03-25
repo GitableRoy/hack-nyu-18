@@ -16,7 +16,7 @@
   explanation:{
     title: 'How it works',
     step1: 'Sign up!',
-    step2: 'Search the board!',
+    step2: 'To the Mission Board!',
     step3:'Earn points'
   },
 
