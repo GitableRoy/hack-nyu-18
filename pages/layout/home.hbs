@@ -1,3 +1,69 @@
 {{#>body}}
 
+  <style>
+  .centered_div {
+     width: Xu;
+     height: Yu;
+     position: absolute;
+     top: 35%;
+     left: 35%;
+     margin-left: -(X/2)u;
+     margin-top: -(Y/2)u;
+  }
+
+  .centerTitle {
+      margin: auto;
+      width: 20%;
+      padding: 10px;
+  }
+  .centerTag {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+
+  </style>
+    {{#with brand}}
+
+          <section class="screen" style = 'background-image: url({{link}})' >
+            <div class="centered_div">
+              <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:100px;" >{{title}} </h1>
+					    <p style = "color: #32BD56;"><b>{{tagline1}}</b></p>
+            </div>
+
+            <div>
+            <p style = "color: red;float:right;">{{tagline2}}</p>
+          </div>
+
+      </section>
+    {{/with}}
+
+    {{#with mission}}
+      <section class="screen" style = 'background-image: url({{link}})'>
+        <div class="centered_div">
+          <h1 style = "font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:100px;" >{{header}} </h1>
+					<p>{{tagline1}}</p>
+          </div>
+      </section>
+    {{/with}}
+
+    {{#with explanation}}
+    <section class="screen">
+      <div class="center_block">
+        <p class="huge">{{header}}</p>
+        <p>{{step1}}</p>
+        <p>{{step2}}</p>
+        <p>{{step3}}</p>
+      </section>
+      {{/with}}
+
+      {{#with join}}
+      <section class="screen" style= 'background-color: black'>
+        <div class="center_block">
+          <p class ="huge"> {{header}} </p>
+          <p><a href=""> Join</a> </p>
+        </section>
+
+      {{/with}}
 {{/body}}
