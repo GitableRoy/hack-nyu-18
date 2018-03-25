@@ -1,3 +1,68 @@
 {{#>body}}
 
+  <style>
+
+  .centerTitle {
+      margin: auto;
+      width: 20%;
+      padding: 10px;
+  }
+  .centerTag {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+
+  </style>
+
+
+    {{#with brand}}
+
+          <section class="screen" style ='background-color: #e0553c;)' >
+
+            <div class="centerTitle">
+              <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: yellow; font-size:100px;" >{{title}} </h1>
+            </div>
+
+            <div class="centerTag">
+					    <p style = "color: white; centerTe">{{tagline1}}</p>
+			        <p style = "color: white;">{{tagline2}}</p>
+            </div>
+      </section>
+    {{/with}}
+
+
+
+
+
+
+    {{#with mission}}
+      <section class="screen" style ='background-color: green'>
+
+          <p class="huge">{{header}}</p>
+					<p>{{tagline1}}</p>
+					<p>{{tagline2}}</p>
+
+      </section>
+    {{/with}}
+
+    {{#with explanation}}
+    <section class="screen">
+      <div class="center_block">
+        <p class="huge">{{header}}</p>
+        <p>{{step1}}</p>
+        <p>{{step2}}</p>
+        <p>{{step3}}</p>
+      </section>
+      {{/with}}
+
+      {{#with join}}
+      <section class="screen" style= 'background-color: black'>
+        <div class="center_block">
+          <p class ="huge"> {{header}} </p>
+          <p><a href=""> Join</a> </p>
+        </section>
+
+      {{/with}}
 {{/body}}
