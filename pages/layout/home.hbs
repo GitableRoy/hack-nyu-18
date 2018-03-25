@@ -1,6 +1,15 @@
 {{#>body}}
 
   <style>
+  .centered_div {
+     width: Xu;
+     height: Yu;
+     position: absolute;
+     top: 35%;
+     left: 35%;
+     margin-left: -(X/2)u;
+     margin-top: -(Y/2)u;
+  }
 
   .centerTitle {
       margin: auto;
@@ -15,35 +24,27 @@
 
 
   </style>
-
-
     {{#with brand}}
 
-          <section class="screen" style ='background-color: #e0553c;)' >
-
-            <div class="centerTitle">
-              <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: yellow; font-size:100px;" >{{title}} </h1>
+          <section class="screen" style = 'background-image: url({{link}})' >
+            <div class="centered_div">
+              <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:100px;" >{{title}} </h1>
+					    <p style = "color: #32BD56;"><b>{{tagline1}}</b></p>
             </div>
 
-            <div class="centerTag">
-					    <p style = "color: white; centerTe">{{tagline1}}</p>
-			        <p style = "color: white;">{{tagline2}}</p>
-            </div>
+            <div>
+            <p style = "color: red;float:right;">{{tagline2}}</p>
+          </div>
+
       </section>
     {{/with}}
 
-
-
-
-
-
     {{#with mission}}
-      <section class="screen" style ='background-color: green'>
-
-          <p class="huge">{{header}}</p>
+      <section class="screen" style = 'background-image: url({{link}})'>
+        <div class="centered_div">
+          <h1 style = "font-family: 'Comic Sans MS', cursive, sans-serif; color: black; font-size:100px;" >{{header}} </h1>
 					<p>{{tagline1}}</p>
-					<p>{{tagline2}}</p>
-
+          </div>
       </section>
     {{/with}}
 
