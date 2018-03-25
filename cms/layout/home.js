@@ -17,7 +17,16 @@
     link:'https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/29391783_1981665731848209_602164369_o.png?_nc_cat=0&oh=e66c0c8a7529e52fda4f109e6ab7932c&oe=5AB92BF4',
     title: 'How it works',
     step1: 'Sign up!',
+<<<<<<< HEAD
     step2: 'To the Mission Board!',
+=======
+      <ul>
+      <li> Sign Up for free </li>
+      <li> Help your neighbors.</li>
+      <li> Ask for help.</li>
+      </ul>
+    step2: 'Search the board!',
+>>>>>>> d05ceaa7eb1758d59081a517ad660445900367e4
     step3:'Earn points'
   },
 
